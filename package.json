@@ -13,5 +13,8 @@
     "chunk"
   ],
   "author": "Fozle Rabbi Shafi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
