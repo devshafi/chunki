@@ -1,0 +1,17 @@
+{
+  "name": "array_chunk",
+  "version": "1.0.0",
+  "description": "Simple utility function to make chunks of array by given size",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "array",
+    "chunk-array",
+    "array_chunk",
+    "chunk"
+  ],
+  "author": "Fozle Rabbi Shafi",
+  "license": "ISC"
+}
