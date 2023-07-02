@@ -17,6 +17,10 @@ export const chunk = <T>(arr: T[], size: number): T[][] => {
   return chunks;
 };
 
+/**
+ * @param {Array} arr
+ * @return {Array[]}
+ */
 export const flatten = <T>(arr: T[][]): T[] => {
   return arr.flat(Infinity) as T[];
 };
