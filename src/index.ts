@@ -18,4 +18,6 @@ export const chunk = <T>(arr: T[], size: number): T[][] => {
   return chunks;
 };
 
-console.log(chunk([1, 2, 3, 4, 5], 6));
+export const flatten = <T>(arr: T[][]): T[] => {
+  return arr.flat(Infinity) as T[];
+};
