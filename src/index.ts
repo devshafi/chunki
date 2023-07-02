@@ -4,7 +4,7 @@
  * @return {Array[]}
  */
 
-const chunk = <T>(arr: T[], size: number): T[][] => {
+  if (size <= 0) throw Error("size must be greater than zero");
   const chunks: T[][] = [];
   let start = 0;
 
