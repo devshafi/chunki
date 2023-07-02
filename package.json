@@ -13,7 +13,10 @@
     "array",
     "chunk-array",
     "array_chunk",
-    "chunk"
+    "chunk",
+    "flat-array",
+    "flatten",
+    "array-flatten"
   ],
   "author": "Fozle Rabbi Shafi",
   "license": "ISC",
