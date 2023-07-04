@@ -1,0 +1,10 @@
+/__tests__/
+/node_modules/
+/docs/
+/src/
+jest.config.js
+tsconfig.json
+nodemon.json
+.gitignore
+.npmignore
+
