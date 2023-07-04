@@ -1,6 +1,6 @@
 {
   "name": "chunki",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Simple utility function to make chunks of array by given size",
   "main": "./lib/index.js",
   "scripts": {
