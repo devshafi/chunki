@@ -1,14 +1,27 @@
 {
+  "include": [
+    "src/**/*"
+  ],
   "compilerOptions": {
-    "target": "es5",                          
-    "module": "commonjs",                    
-    "lib": ["es6"],                     
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
     "allowJs": true,
-    "outDir": "build",                          
+    "outDir": "lib",
     "rootDir": "src",
-    "strict": true,         
+    "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    // Generate d.ts files
+    "declaration": true,
+    // go to js file when using IDE functions like
+    // "Go to Definition" in VSCode
+    "declarationMap": true,
+    // This compiler run should
+    // only output d.ts files
+    // "emitDeclarationOnly": true,
   }
 }
