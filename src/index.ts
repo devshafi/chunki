@@ -4,7 +4,7 @@
  * @return {Array[]}
  */
 
-export const chunk = <T>(arr: T[], size: number): T[][] => {
+export const chunk = <T>(arr: T[], size: number = 0): T[][] => {
   if (size <= 0) throw Error("size must be greater than zero");
   const chunks: T[][] = [];
   let start = 0;
